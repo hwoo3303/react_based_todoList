@@ -6,11 +6,11 @@ const mysql = require('mysql');
 
 // MySQL 설정
 const db = mysql.createPool({
-    host: "management-todolist.cqnxjfav3yfx.us-east-2.rds.amazonaws.com",
-    user: "admin",
-    password: "admin3303",
+    host: "hostURL",
+    user: "hostAccount",
+    password: "hostPassword",
     port: "3306",
-    database: "management",
+    database: "hostDB",
 });
 
 app.use(cors());
